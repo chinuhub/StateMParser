@@ -1,0 +1,554 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.40.1 (20161225.0304)
+%%Title: unnamed
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1988 424
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 1952 388 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% 0
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+955.612 362 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+952.112 357.8 moveto 7 (0) alignedtext
+grestore
+% 0->0
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 980.1445 369.752 moveto
+991.1198 370.4902 1000.612 367.9063 1000.612 362 curveto
+1000.612 358.0317 996.3271 355.5632 990.1864 354.5944 curveto
+stroke
+0 0 0 edgecolor
+newpath 990.2592 351.0949 moveto
+980.1445 354.248 lineto
+990.0179 358.0908 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 990.2592 351.0949 moveto
+980.1445 354.248 lineto
+990.0179 358.0908 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1000.612 357.8 moveto 92.2373 (isNotDR\(\)|nop\(\)) alignedtext
+grestore
+% 1
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+955.612 276 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+952.112 271.8 moveto 7 (1) alignedtext
+grestore
+% 0->1
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 955.612 343.7616 moveto
+955.612 332.3597 955.612 317.4342 955.612 304.494 curveto
+stroke
+0 0 0 edgecolor
+newpath 959.1121 304.2121 moveto
+955.612 294.2121 lineto
+952.1121 304.2121 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 959.1121 304.2121 moveto
+955.612 294.2121 lineto
+952.1121 304.2121 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+955.612 314.8 moveto 225.1279 (contains\('DETAILED RESULTS'\)|nop\(\)) alignedtext
+grestore
+% 3
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+955.612 190 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+952.112 185.8 moveto 7 (3) alignedtext
+grestore
+% 1->3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 955.612 257.7616 moveto
+955.612 246.3597 955.612 231.4342 955.612 218.494 curveto
+stroke
+0 0 0 edgecolor
+newpath 959.1121 218.2121 moveto
+955.612 208.2121 lineto
+952.1121 218.2121 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 959.1121 218.2121 moveto
+955.612 208.2121 lineto
+952.1121 218.2121 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+955.612 228.8 moveto 184.2559 (contains\('VALID VOTES'\)|nop\(\)) alignedtext
+grestore
+% 3->3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 982.4069 192.6192 moveto
+992.3924 192.7051 1000.612 191.832 1000.612 190 curveto
+1000.612 188.855 997.4013 188.0846 992.5553 187.6887 curveto
+stroke
+0 0 0 edgecolor
+newpath 992.5085 184.1858 moveto
+982.4069 187.3808 lineto
+992.2961 191.1826 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 992.5085 184.1858 moveto
+982.4069 187.3808 lineto
+992.2961 191.1826 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1000.612 185.8 moveto 120.5996 (contains\('SEX'\)|nop\(\)) alignedtext
+grestore
+% 3->3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 982.1682 193.4476 moveto
+1030.2875 196.7 1121.2116 195.5508 1121.2116 190 curveto
+1121.2116 184.8178 1041.9624 183.4721 992.2816 185.9627 curveto
+stroke
+0 0 0 edgecolor
+newpath 991.9475 182.4762 moveto
+982.1682 186.5524 lineto
+992.355 189.4643 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 991.9475 182.4762 moveto
+982.1682 186.5524 lineto
+992.355 189.4643 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1121.2116 185.8 moveto 139.2617 (contains\('VOTES'\)|nop\(\)) alignedtext
+grestore
+% 3->3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 981.9641 193.9383 moveto
+1058.0545 200.2747 1260.4734 198.9619 1260.4734 190 curveto
+1260.4734 181.4057 1074.3186 179.8459 991.9416 185.3206 curveto
+stroke
+0 0 0 edgecolor
+newpath 991.6773 181.8305 moveto
+981.9641 186.0617 lineto
+992.1959 188.8113 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 991.6773 181.8305 moveto
+981.9641 186.0617 lineto
+992.1959 188.8113 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1260.4734 185.8 moveto 196.0137 (contains\('rptDetailed'\)|skip\(\):skip\(\)) alignedtext
+grestore
+% 4
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+791.612 104 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+788.112 99.8 moveto 7 (4) alignedtext
+grestore
+% 3->4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 928.4376 188.0125 moveto
+886.4978 184.3198 809.0559 174.8039 792.1501 154 curveto
+787.2015 147.9103 785.6804 139.8874 785.7833 132.0558 curveto
+stroke
+0 0 0 edgecolor
+newpath 789.273 132.3274 moveto
+786.7024 122.0491 lineto
+782.3024 131.687 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 789.273 132.3274 moveto
+786.7024 122.0491 lineto
+782.3024 131.687 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+792.612 142.8 moveto 313.4619 (contains\('Constituency'\)|ExtractPC_no_colon_but_dot\(\)) alignedtext
+grestore
+% 4->4
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 816.1445 111.752 moveto
+827.1198 112.4902 836.612 109.9063 836.612 104 curveto
+836.612 100.0317 832.3271 97.5632 826.1864 96.5944 curveto
+stroke
+0 0 0 edgecolor
+newpath 826.2592 93.0949 moveto
+816.1445 96.248 lineto
+826.0179 100.0908 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 826.2592 93.0949 moveto
+816.1445 96.248 lineto
+826.0179 100.0908 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+836.612 99.8 moveto 157.124 (contains\('rptDetailed'\)|nop\(\)) alignedtext
+grestore
+% 5
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+868.612 18 27 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+865.112 13.8 moveto 7 (5) alignedtext
+grestore
+% 4->5
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 764.587 103.801 moveto
+629.1956 102.6746 30.0848 96.1109 3.2282 68 curveto
+-1.07 63.501 -1.0791 58.4903 3.2282 54 curveto
+32.2607 23.7347 668.0685 18.8792 830.8964 18.1312 curveto
+stroke
+0 0 0 edgecolor
+newpath 831.3734 21.6293 moveto
+841.3581 18.0859 lineto
+831.343 14.6294 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 831.3734 21.6293 moveto
+841.3581 18.0859 lineto
+831.343 14.6294 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+3.612 56.8 moveto 843.3838 (isCandInfo_without_dot\(\)|ExtractCandInfo_without_dot\(candinfo\):Write\(candinfo,statename,pcid,pcname,pctype,candname,candsex,party,candvotes\)) alignedtext
+grestore
+% 4->5
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 813.6467 93.467 moveto
+824.6991 87.297 837.6121 78.623 846.612 68 curveto
+852.1293 61.4876 856.4864 53.3745 859.8171 45.591 curveto
+stroke
+0 0 0 edgecolor
+newpath 863.1626 46.643 moveto
+863.4972 36.0535 lineto
+856.6319 44.1231 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 863.1626 46.643 moveto
+863.4972 36.0535 lineto
+856.6319 44.1231 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+856.612 56.8 moveto 236.1133 (isSingleNumberERR\(\)|skip\(\):skip\(\):skip\(\)) alignedtext
+grestore
+% 5->3
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 895.4473 20.4086 moveto
+952.7287 25.8067 1082.8883 39.5387 1096.612 54 curveto
+1189.5264 151.9084 1122.7032 132.3216 1105.612 154 curveto
+1091.7993 171.5201 1032.4298 181.4838 992.6533 186.3058 curveto
+stroke
+0 0 0 edgecolor
+newpath 992.0384 182.8535 moveto
+982.5057 187.4771 lineto
+992.8411 189.8073 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 992.0384 182.8535 moveto
+982.5057 187.4771 lineto
+992.8411 189.8073 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1143.612 99.8 moveto 164.6846 (contains\('ELECTORS'\)|nop\(\)) alignedtext
+grestore
+% 5->5
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 895.4069 21.9288 moveto
+905.3924 22.0577 913.612 20.748 913.612 18 curveto
+913.612 16.2825 910.4013 15.1268 905.5553 14.5331 curveto
+stroke
+0 0 0 edgecolor
+newpath 905.5557 11.0296 moveto
+895.4069 14.0712 lineto
+905.2374 18.0223 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 905.5557 11.0296 moveto
+895.4069 14.0712 lineto
+905.2374 18.0223 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+913.612 13.8 moveto 795.915 (notrptnotelector\(\)|ExtractCandInfo_without_dot\(candinfo\):Write\(candinfo,statename,pcid,pcname,pctype,candname,candsex,party,candvotes\)) alignedtext
+grestore
+% 5->5
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 895.6423 20.751 moveto
+1040.4866 28.4019 1709.5271 27.4849 1709.5271 18 curveto
+1709.5271 8.7189 1068.9256 7.6415 905.692 14.7678 curveto
+stroke
+0 0 0 edgecolor
+newpath 905.4634 11.2746 moveto
+895.6423 15.249 lineto
+905.7983 18.2666 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 905.4634 11.2746 moveto
+895.6423 15.249 lineto
+905.7983 18.2666 lineto
+closepath stroke
+0 0 0 edgecolor
+14 /Times-Roman set_font
+1709.5271 13.8 moveto 217.0137 (contains\('rptDetailedRes'\)|skip\(\):skip\(\)) alignedtext
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 1988 424
+end
+restore
+%%EOF
